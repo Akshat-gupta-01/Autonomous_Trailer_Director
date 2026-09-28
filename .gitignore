@@ -1,0 +1,42 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.cache/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets — never commit keys
+.env
+.env.*
+!.env.example
+
+# Runtime output — regenerate with:
+#   python -m src.cli --config ./config/default_config.yaml --mock run \
+#     --package <episode_package> --output ./out/
+out/
+sample_run/
+test_output/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+config/default_config.yaml
