@@ -2,6 +2,9 @@
 
 > **OTT Dialect Platform — "Build an Autonomous Trailer Director" Assignment Submission**
 
+## LiveDemo
+- https://auto-trail-dir.streamlit.app/
+
 ## Overview
 
 This system generates compliant, creative trailer plans for multiple audiences from episode materials. It implements all requirements from the assignment specification (§4–§12) with emphasis on **generality**, **safety**, **verifiability**, and **observability**.
