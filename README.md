@@ -5,7 +5,12 @@
 
 ## Overview
 
-This system generates compliant, creative trailer plans for multiple audiences from episode materials. It implements all requirements from the assignment specification (§4–§12) with emphasis on **generality**, **safety**, **verifiability**, and **observability**.
+Autonomous Trailer Director — generates compliant, creative trailer plans
+for multiple audiences from episode materials.
+
+Each trailer is emitted as a creative brief plus a JSON EDL, with a
+fleet-level validation report covering status, cost, and degraded
+capabilities.
 
 ## LiveDemo
 - https://auto-trail-dir.streamlit.app/
