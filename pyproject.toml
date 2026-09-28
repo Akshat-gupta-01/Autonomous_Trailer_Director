@@ -27,6 +27,10 @@ dev = [
 requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
@@ -43,3 +47,7 @@ strict_optional = true
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+
+# ← ADD THIS FOR STREAMLIT CLOUD / POETRY
+[tool.poetry]
+package-mode = false
